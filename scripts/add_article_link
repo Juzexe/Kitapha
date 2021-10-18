@@ -1,0 +1,2 @@
+#!/bin/bash
+create_article_link $1 >> ~/Obsidian/Article\ Bookmarks.md

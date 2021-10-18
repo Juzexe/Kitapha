@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "[$(curl -s -L $1 | awk 'match($0, /<title>(.+)<\/title>/) {print substr($0, RSTART + 7, RLENGTH - 15)}')]($1)"

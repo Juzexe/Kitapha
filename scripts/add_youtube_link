@@ -1,0 +1,2 @@
+#!/bin/bash
+create_youtube_link $1 >> ~/Obsidian/YouTube\ Bookmarks.md
