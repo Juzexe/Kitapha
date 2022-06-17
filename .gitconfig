@@ -1,0 +1,11 @@
+[user]
+	email = juzexework@gmail.com
+	name = Juzexe
+[credential]
+	helper = manager-core
+[core]
+	editor = hx
+[alias]
+	st = status
+	br = branch
+	c = switch

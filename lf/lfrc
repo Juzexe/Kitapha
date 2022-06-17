@@ -1,0 +1,9 @@
+set shell powershell
+set icons true
+set drawbox true
+
+cmd open &start $Env:f
+cmd share $curl -v -F "file=@$Env:f" https://0x0.st | Set-Clipboard
+
+map e $hx $Env:f
+map D delete
